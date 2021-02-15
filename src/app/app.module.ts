@@ -10,6 +10,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { HeadingsComponent } from './components/headings/headings.component';
 import { GridComponent } from './components/grid/grid.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
+import { LinksComponent } from './components/links/links.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AccordionComponent } from './components/accordion/accordion.component';
     ButtonComponent,
     HeadingsComponent,
     GridComponent,
-    AccordionComponent
+    AccordionComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,

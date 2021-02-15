@@ -4,6 +4,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { ButtonComponent } from './components/button/button.component';
 import { GridComponent } from './components/grid/grid.component';
 import { HeadingsComponent } from './components/headings/headings.component';
+import { LinksComponent } from './components/links/links.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'headings', component: HeadingsComponent },
   { path: 'grid', component: GridComponent },
   { path: 'accord', component: AccordionComponent },
+  { path: 'links', component: LinksComponent },
   // { path: '', component: AppComponent, pathMatch: 'full' },
 ];
 
