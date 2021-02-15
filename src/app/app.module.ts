@@ -7,11 +7,13 @@ import { MaterialModule } from './material/material.module';
 
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
+import { HeadingsComponent } from './components/headings/headings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent
+    ButtonComponent,
+    HeadingsComponent
   ],
   imports: [
     BrowserModule,
