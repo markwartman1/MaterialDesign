@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HeadingsComponent } from './components/headings/headings.component';
 import { GridComponent } from './components/grid/grid.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     HeadingsComponent,
-    GridComponent
+    GridComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
