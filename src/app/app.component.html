@@ -7,9 +7,17 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- my button -->
+<mat-toolbar color="primary" class="navbar">
+  <div>Navbar</div>
+  <div>
+    <span></span>
+    <span style="padding-right: 3px;"><button mat-raised-button routerLink="/button">Buttons</button></span>
+    <span><button mat-raised-button routerLink="/headings">Headings</button></span>
+  </div>
+</mat-toolbar>
 <button mat-raised-button>Hello World</button>
-<button mat-raised-button routerLink="/button">Buttons</button>
-<button mat-raised-button routerLink="/headings">Headings</button>
+<!-- <button mat-raised-button routerLink="/button">Buttons</button> -->
+<!-- <button mat-raised-button routerLink="/headings">Headings</button> -->
 
 <router-outlet></router-outlet>
 
