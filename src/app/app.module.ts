@@ -11,6 +11,7 @@ import { HeadingsComponent } from './components/headings/headings.component';
 import { GridComponent } from './components/grid/grid.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LinksComponent } from './components/links/links.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LinksComponent } from './components/links/links.component';
     HeadingsComponent,
     GridComponent,
     AccordionComponent,
-    LinksComponent
+    LinksComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
