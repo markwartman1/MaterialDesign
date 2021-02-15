@@ -8,12 +8,14 @@ import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
 import { HeadingsComponent } from './components/headings/headings.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
-    HeadingsComponent
+    HeadingsComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,

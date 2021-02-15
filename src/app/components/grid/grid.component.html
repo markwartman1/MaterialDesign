@@ -1,0 +1,51 @@
+<p>grid works!</p>
+
+<style>
+    .yellow {
+        background-color: yellow;
+    }
+
+    .orange {
+        background-color: tomato;
+    }
+
+    .purple {
+        background-color: purple;
+    }
+</style>
+
+<mat-grid-list cols="2" rowHeight="100px">
+    <mat-grid-tile class="orange" rowspan="2">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="orange">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="orange">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="orange">Tile 4</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="3" rowHeight="100px">
+    <mat-grid-tile class="yellow" rowspan="2">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="yellow">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="yellow">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="yellow">Tile 4</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="fit" style="height: 100px;">
+    <mat-grid-tile class="purple">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 4</mat-grid-tile>
+
+    <mat-grid-tile class="purple">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 4</mat-grid-tile>
+
+    <mat-grid-tile class="purple">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 4</mat-grid-tile>
+
+    <mat-grid-tile class="purple">Tile 1</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 3</mat-grid-tile>
+    <mat-grid-tile class="purple">Tile 4</mat-grid-tile>
+</mat-grid-list>
