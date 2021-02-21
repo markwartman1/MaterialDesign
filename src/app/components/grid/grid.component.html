@@ -26,6 +26,8 @@
     <mat-grid-tile class="yellow">Tile 2</mat-grid-tile>
     <mat-grid-tile class="yellow">Tile 3</mat-grid-tile>
     <mat-grid-tile class="yellow">Tile 4</mat-grid-tile>
+    <mat-grid-tile class="yellow">Tile 5</mat-grid-tile>
+    <mat-grid-tile class="yellow">Tile 6</mat-grid-tile>
 </mat-grid-list>
 
 <mat-grid-list cols="4" rowHeight="fit" style="height: 100px;">
@@ -48,4 +50,16 @@
     <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
     <mat-grid-tile class="purple">Tile 3</mat-grid-tile>
     <mat-grid-tile class="purple">Tile 4</mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="2" rowHeight="100px" style="margin-top: 4px;">
+    <mat-grid-tile class="orange" rowspan="2">Tile 1 orange</mat-grid-tile>
+    <mat-grid-tile class="purple">
+        Tile 2 of Purples
+    
+        <mat-grid-list cols="2">
+            <mat-grid-tile class="purple">Tile 1</mat-grid-tile>
+            <mat-grid-tile class="purple">Tile 2</mat-grid-tile>
+        </mat-grid-list>
+    </mat-grid-tile>
 </mat-grid-list>
