@@ -81,5 +81,18 @@
     <mat-button-toggle value="italic">Italic</mat-button-toggle>
     <mat-button-toggle value="underline">Underline</mat-button-toggle>
   </mat-button-toggle-group>
+
+<p style="padding-top: 55px;"></p>
+<hr>
+<p style="padding-bottom: 55px;">Single toggle button's below</p>
   
-  
+<mat-button-toggle #myMadeupVar style="margin-right: 8px; margin-bottom: 20px;">
+    Toggle
+</mat-button-toggle>{{ myMadeupVar.checked }}
+
+<mat-button-toggle 
+    #myMadeupVar2 
+    checked 
+    style="margin-left: 20px;margin-right: 8px; margin-bottom: 260px;">
+    Toggle2 starts as true
+</mat-button-toggle>{{ myMadeupVar2.checked }}
