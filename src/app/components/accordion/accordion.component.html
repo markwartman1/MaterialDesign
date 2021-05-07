@@ -129,7 +129,15 @@
 <div>
     <hr>
     <p>Badges</p>
-    <div><span matBadgeOverlap="false" matBadge="5">Notifications</span></div>
+    <div><span matBadgeOverlap="false" [matBadge]="notificationNum">Notifications</span></div>
+    <div>
+        <button (click)="runNotificationCountdown()">decrement notifications</button>
+    </div>
+    <p>There is a way to bind visibility, say, hide if == 0 notifications.  you wouldn't want to see that.</p>
+    <p>with: [matBadgeHidden]="notificationNum == 0"</p>
+    <div>
+        <div><span [matBadgeHidden]="notificationNum == 0" matBadgeOverlap="false" [matBadge]="notificationNum">Notifications</span></div>
+    </div>
 </div>
 
 <div>

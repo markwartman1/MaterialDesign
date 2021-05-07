@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-accordion',
@@ -8,10 +9,22 @@ import { Component, OnInit } from '@angular/core';
 export class AccordionComponent implements OnInit {
 
   showSpinner = false;
+  sub = Subscription;
+  notificationNum = 5;
 
   constructor() { }
 
   ngOnInit(): void {
+    
+  }
+
+  runNotificationCountdown() {
+    
+    this.notificationNum--;
+    
+    if (this.notificationNum < 0) {
+      this.notificationNum = 5;
+    }
   }
 
   mockLoadData() {
