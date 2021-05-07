@@ -76,11 +76,22 @@
 <hr>
 <p style="padding-bottom: 55px;">toggle group below</p>
 
-<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-    <mat-button-toggle value="bold">Bold</mat-button-toggle>
-    <mat-button-toggle value="italic">Italic</mat-button-toggle>
-    <mat-button-toggle value="underline">Underline</mat-button-toggle>
-  </mat-button-toggle-group>
+<mat-button-toggle-group style="margin-right: 8px;" name="fontStyle" aria-label="Font Style" #tt="matButtonToggleGroup">
+    <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+    <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+    <mat-button-toggle value="React">React</mat-button-toggle>
+</mat-button-toggle-group>{{ tt.value }}
+
+<div style="margin-top: 8px;">
+    <div>
+        Multiple
+    </div>
+    <mat-button-toggle-group multiple style="margin-right: 8px;" name="fontStyle" aria-label="Font Style" #t2="matButtonToggleGroup">
+        <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+        <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+        <mat-button-toggle value="React">React</mat-button-toggle>
+    </mat-button-toggle-group>{{ t2.value }}
+</div>
 
 <p style="padding-top: 55px;"></p>
 <hr>
@@ -93,6 +104,24 @@
 <mat-button-toggle 
     #myMadeupVar2 
     checked 
-    style="margin-left: 20px;margin-right: 8px; margin-bottom: 260px;">
+    style="margin-left: 20px;margin-right: 8px;">
     Toggle2 starts as true
 </mat-button-toggle>{{ myMadeupVar2.checked }}
+
+
+<hr>
+<div style="margin-bottom: 260px;">
+
+    <p>Icon possibilities</p>
+    <span class="material-icons">
+        grade
+    </span>
+    <div>
+        <mat-icon>grade</mat-icon>
+    </div>
+    
+</div>
+<p>Bottom here ??</p>
+<!-- Left off at -->
+
+<!-- https://youtu.be/jUfEn032IL8?t=1531 -->
