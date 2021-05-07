@@ -7,6 +7,7 @@ import { MatExpansionModule } from "@angular/material/expansion";
 import { MatCardModule } from "@angular/material/card";
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatIconModule } from "@angular/material/icon";
+import { MatBadgeModule } from "@angular/material/badge";
 
 const material = [
   MatButtonModule,
@@ -16,7 +17,8 @@ const material = [
   MatExpansionModule,
   MatCardModule,
   MatButtonToggleModule,
-  MatIconModule
+  MatIconModule,
+  MatBadgeModule
 ];
 
 @NgModule({
