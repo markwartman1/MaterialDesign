@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccordionComponent implements OnInit {
 
+  showSpinner = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  mockLoadData() {
+    this.showSpinner = true;
+    setTimeout(() => {
+      this.showSpinner = false;
+    }, 5000);
   }
 
 }

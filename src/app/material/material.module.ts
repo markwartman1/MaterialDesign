@@ -8,6 +8,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
 import { MatIconModule } from "@angular/material/icon";
 import { MatBadgeModule } from "@angular/material/badge";
+import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
 const material = [
   MatButtonModule,
@@ -18,7 +19,8 @@ const material = [
   MatCardModule,
   MatButtonToggleModule,
   MatIconModule,
-  MatBadgeModule
+  MatBadgeModule,
+  MatProgressSpinnerModule
 ];
 
 @NgModule({

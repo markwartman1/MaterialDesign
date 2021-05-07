@@ -131,6 +131,17 @@
     <p>Badges</p>
     <div><span matBadgeOverlap="false" matBadge="5">Notifications</span></div>
 </div>
+
+<div>
+    <hr>
+    <p>Spinner</p>
+    <mat-spinner *ngIf="showSpinner"></mat-spinner>
+    <div>
+        <button (click)="mockLoadData()">Load Data</button>
+    </div>
+
+</div>
+
 <p style="margin-top: 260px;">Bottom here ??</p>
 <!-- Left off at -->
 
