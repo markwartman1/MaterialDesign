@@ -45,12 +45,17 @@ export class AccordionComponent implements OnInit {
       let handle = setInterval( () => {
         observer.next(this.count);
         this.count--;
+        
         if (this.count < 0) {
           observer.error(new Error('Count is still decrementing lessthan zero'));
         }
         if (this.count === 0) {
           observer.complete();
           clearInterval(handle);
+        }
+        if (this.count < 0) {
+          
+          this.count = 7;
         }
       }, 1000);
     });
