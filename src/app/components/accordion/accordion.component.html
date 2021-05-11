@@ -150,6 +150,16 @@
 
 </div>
 
+<div>
+    <hr>
+    <p>Badges experiment</p>
+    <!-- [matBadgeHidden]="count <= 0" -->
+    <div><span  matBadgeOverlap="false" [matBadge]="count">Notifications</span></div>
+    <div>
+        <button (click)="autoDecrement()">auto-decrement notifications</button>
+    </div>
+</div>
+
 <p style="margin-top: 260px;">Bottom here ??</p>
 <!-- Left off at -->
 
