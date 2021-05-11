@@ -152,7 +152,7 @@
 
 <div>
     <hr>
-    <p>Badges experiment</p>
+    <p [ngStyle]="{'background-color': count > 0 ? 'grey' : 'red'}">Badges experiment</p>
     <!-- [matBadgeHidden]="count <= 0" -->
     <div><span  matBadgeOverlap="false" [matBadge]="count">Notifications</span></div>
     <div>
