@@ -6,6 +6,7 @@ import { CardComponent } from './components/card/card.component';
 import { GridComponent } from './components/grid/grid.component';
 import { HeadingsComponent } from './components/headings/headings.component';
 import { LinksComponent } from './components/links/links.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'accord', component: AccordionComponent },
   { path: 'links', component: LinksComponent },
   { path: 'card', component: CardComponent },
+  { path: 'sidenav', component: SidenavComponent }
   // { path: '', component: AppComponent, pathMatch: 'full' },
 ];
 

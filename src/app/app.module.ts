@@ -12,6 +12,7 @@ import { GridComponent } from './components/grid/grid.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { LinksComponent } from './components/links/links.component';
 import { CardComponent } from './components/card/card.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CardComponent } from './components/card/card.component';
     GridComponent,
     AccordionComponent,
     LinksComponent,
-    CardComponent
+    CardComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
