@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AccordionComponent } from './components/accordion/accordion.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
 import { GridComponent } from './components/grid/grid.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'accord', component: AccordionComponent },
   { path: 'links', component: LinksComponent },
   { path: 'card', component: CardComponent },
-  { path: 'sidenav', component: SidenavComponent }
+  { path: 'sidenav', component: SidenavComponent },
+  { path: 'autocomplete', component: AutocompleteComponent },
   // { path: '', component: AppComponent, pathMatch: 'full' },
 ];
 

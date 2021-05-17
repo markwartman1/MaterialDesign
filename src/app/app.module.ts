@@ -13,6 +13,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { LinksComponent } from './components/links/links.component';
 import { CardComponent } from './components/card/card.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     AccordionComponent,
     LinksComponent,
     CardComponent,
-    SidenavComponent
+    SidenavComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
