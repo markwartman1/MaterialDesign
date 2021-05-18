@@ -17,6 +17,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { DatatableComponent } from './components/datatable/datatable.component';
+import { VirtualscrollingComponent } from './components/virtualscrolling/virtualscrolling.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DatatableComponent } from './components/datatable/datatable.component';
     SidenavComponent,
     AutocompleteComponent,
     DatepickerComponent,
-    DatatableComponent
+    DatatableComponent,
+    VirtualscrollingComponent
   ],
   imports: [
     BrowserModule,

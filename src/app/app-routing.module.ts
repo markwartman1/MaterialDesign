@@ -10,6 +10,7 @@ import { GridComponent } from './components/grid/grid.component';
 import { HeadingsComponent } from './components/headings/headings.component';
 import { LinksComponent } from './components/links/links.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { VirtualscrollingComponent } from './components/virtualscrolling/virtualscrolling.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'datepicker', component: DatepickerComponent },
   { path: 'datatable', component: DatatableComponent },
+  { path: 'virtualscrolling', component: VirtualscrollingComponent },
   // { path: '', component: AppComponent, pathMatch: 'full' },
 ];
 
