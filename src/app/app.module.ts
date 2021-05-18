@@ -18,6 +18,7 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { DatatableComponent } from './components/datatable/datatable.component';
 import { VirtualscrollingComponent } from './components/virtualscrolling/virtualscrolling.component';
+import { ScrollingModule } from "@angular/cdk/scrolling";
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { VirtualscrollingComponent } from './components/virtualscrolling/virtual
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
