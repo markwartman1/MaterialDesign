@@ -16,6 +16,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatTableModule } from "@angular/material/table";
+import { MatSortModule } from '@angular/material/sort';
 
 const material = [
   MatButtonModule,
@@ -34,7 +35,8 @@ const material = [
   MatAutocompleteModule,
   MatDatepickerModule,
   MatNativeDateModule,
-  MatTableModule
+  MatTableModule,
+  MatSortModule
 ];
 
 @NgModule({
