@@ -4,6 +4,7 @@ import { AccordionComponent } from './components/accordion/accordion.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
 import { ButtonComponent } from './components/button/button.component';
 import { CardComponent } from './components/card/card.component';
+import { DatatableComponent } from './components/datatable/datatable.component';
 import { DatepickerComponent } from './components/datepicker/datepicker.component';
 import { GridComponent } from './components/grid/grid.component';
 import { HeadingsComponent } from './components/headings/headings.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'sidenav', component: SidenavComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'datepicker', component: DatepickerComponent },
+  { path: 'datatable', component: DatatableComponent },
   // { path: '', component: AppComponent, pathMatch: 'full' },
 ];
 
