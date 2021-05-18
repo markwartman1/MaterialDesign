@@ -15,6 +15,7 @@ import { LinksComponent } from './components/links/links.component';
 import { CardComponent } from './components/card/card.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AutocompleteComponent } from './components/autocomplete/autocomplete.component';
+import { DatepickerComponent } from './components/datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AutocompleteComponent } from './components/autocomplete/autocomplete.co
     LinksComponent,
     CardComponent,
     SidenavComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    DatepickerComponent
   ],
   imports: [
     BrowserModule,
