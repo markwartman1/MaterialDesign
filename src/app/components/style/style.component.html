@@ -1,1 +1,18 @@
 <p>style works!</p>
+
+<p style="padding-bottom: 55px;">toggle group below</p>
+
+<mat-button-toggle-group style="margin-right: 8px;" name="fontStyle" aria-label="Font Style" #tt="matButtonToggleGroup">
+    <mat-button-toggle value="red">red</mat-button-toggle>
+    <mat-button-toggle value="green">green</mat-button-toggle>
+    <mat-button-toggle value="yellow">yellow</mat-button-toggle>
+</mat-button-toggle-group>
+
+<!-- [ngStyle]="color: tt.value" -->
+<p *ngIf="tt.value === 'yellow'" [ngStyle]="{'color': tt.value, 'background-color': 'grey'}">
+    {{ tt.value }}
+</p>
+<p *ngIf="tt.value !== 'yellow'" [ngStyle]="{'color': tt.value, 'background-color': (tt.value === 'red') ? 'black' : 'white'}">
+    {{ tt.value }}
+</p>
+    
