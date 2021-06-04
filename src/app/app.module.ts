@@ -19,6 +19,7 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
 import { DatatableComponent } from './components/datatable/datatable.component';
 import { VirtualscrollingComponent } from './components/virtualscrolling/virtualscrolling.component';
 import { ScrollingModule } from "@angular/cdk/scrolling";
+import { StyleComponent } from './components/style/style.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ScrollingModule } from "@angular/cdk/scrolling";
     AutocompleteComponent,
     DatepickerComponent,
     DatatableComponent,
-    VirtualscrollingComponent
+    VirtualscrollingComponent,
+    StyleComponent
   ],
   imports: [
     BrowserModule,
